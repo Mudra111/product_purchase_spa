@@ -37,6 +37,7 @@ const Header = () => {
             fill="currentColor"
             class="bi bi-list"
             viewBox="0 0 16 16"
+            alt="user"
           >
             <path
               fill-rule="evenodd"
@@ -57,7 +58,7 @@ const Header = () => {
 
           <Link to="/feedback">Feedback</Link>
           <Link to="/" className="user-icon">
-            <FontAwesomeIcon icon={faUser} size="lg" />
+            <FontAwesomeIcon icon={faUser} size="lg" alt="user" />
           </Link>
         </ul>
         {/* <div className="close">
