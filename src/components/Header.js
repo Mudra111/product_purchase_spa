@@ -10,9 +10,7 @@ const Header = () => {
   const display = () => {
     setmainMenu(!mainMenu);
   };
-  const notDisplay = () => {
-    setmainMenu(false);
-  };
+
   useEffect(() => {
     window.addEventListener("scroll", isSticky);
     return () => {
