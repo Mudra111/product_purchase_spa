@@ -1,0 +1,313 @@
+.feedbackForm {
+  box-shadow: 3px 3px 30px rgb(0, 0, 106);
+  width: 40%;
+  margin: 90px auto 0 auto;
+  padding: 40px 0;
+  border-radius: 0px;
+}
+
+.divFeedbackForm {
+  padding: 15px;
+  text-align: center;
+}
+
+.divFeedbackForm label {
+  margin-right: 10px;
+  font-size: 18px;
+  color: darkblue;
+  font-weight: 600;
+  display: block;
+  text-align: left;
+  width: 61%;
+  margin: auto;
+}
+
+.divFeedbackForm input {
+  width: 60%;
+  font-size: 18px;
+  color: darkblue;
+  border: none;
+  background-color: rgba(0, 0, 139, 0.214);
+  outline: none;
+  padding: 10px 5px;
+  border-radius: 5px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.divFeedbackForm input::placeholder {
+  color: rgba(0, 0, 139, 0.499);
+}
+
+.divFeedbackForm textarea {
+  width: 60%;
+  font-size: 18px;
+  color: darkblue;
+  border: none;
+  background-color: rgba(0, 0, 139, 0.214);
+  outline: none;
+  padding: 10px 5px;
+  border-radius: 5px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.divFeedbackForm textarea::placeholder {
+  color: rgba(0, 0, 139, 0.499);
+}
+
+.submitBtnfeedbackForm {
+  padding: 10px 20px;
+  background-color: aliceblue;
+  border: 1px solid darkblue;
+  border-radius: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+  color: darkblue;
+  font-size: 17px;
+  margin-left: 10px;
+  font-weight: 600;
+  width: 30%;
+}
+
+.submitBtnfeedbackForm:hover {
+  background-color: darkblue;
+  color: white;
+}
+
+@media (min-width: 350px) and (max-width: 551px) {
+  .feedbackForm {
+    box-shadow: 3px 3px 30px rgb(0, 0, 106);
+    width: 97%;
+    margin: 90px auto 0 auto;
+    padding: 40px 0;
+    border-radius: 0px;
+  }
+
+  .divFeedbackForm {
+    padding: 15px;
+    text-align: center;
+  }
+
+  .divFeedbackForm label {
+    margin-right: 10px;
+    font-size: 15px;
+    color: darkblue;
+    font-weight: 600;
+    display: block;
+    text-align: left;
+    width: 80%;
+    margin: auto;
+  }
+
+  .divFeedbackForm input {
+    width: 70%;
+    font-size: 18px;
+    color: darkblue;
+    border: none;
+    background-color: rgba(0, 0, 139, 0.214);
+    outline: none;
+    padding: 10px 5px;
+    border-radius: 0px;
+    font-weight: 600;
+    margin-top: 10px;
+  }
+
+  .divFeedbackForm input::placeholder {
+    color: rgba(0, 0, 139, 0.499);
+  }
+
+  .divFeedbackForm textarea {
+    width: 80%;
+    font-size: 15px;
+    color: darkblue;
+    border: none;
+    background-color: rgba(0, 0, 139, 0.214);
+    outline: none;
+    padding: 10px 5px;
+    border-radius: 5px;
+    font-weight: 600;
+    margin-top: 10px;
+  }
+
+  .divFeedbackForm textarea::placeholder {
+    color: rgba(0, 0, 139, 0.499);
+  }
+
+  .submitBtnfeedbackForm {
+    padding: 7px 15px;
+    background-color: aliceblue;
+    border: 1px solid darkblue;
+    border-radius: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    color: darkblue;
+    font-size: 17px;
+    margin-left: 10px;
+    font-weight: 600;
+    width: 30%;
+  }
+
+  .submitBtnfeedbackForm:hover {
+    background-color: darkblue;
+    color: white;
+  }
+}
+
+@media (min-width: 551px) and (max-width: 751px) {
+  .feedbackForm {
+    box-shadow: 3px 3px 30px rgb(0, 0, 106);
+    width: 70%;
+    margin: 90px auto 0 auto;
+    padding: 40px 0;
+    border-radius: 0px;
+  }
+
+  .divFeedbackForm {
+    padding: 15px;
+    text-align: center;
+  }
+
+  .divFeedbackForm label {
+    margin-right: 10px;
+    font-size: 15px;
+    color: darkblue;
+    font-weight: 600;
+    display: block;
+    text-align: left;
+    width: 80%;
+    margin: auto;
+  }
+
+  .divFeedbackForm input {
+    width: 70%;
+    font-size: 18px;
+    color: darkblue;
+    border: none;
+    background-color: rgba(0, 0, 139, 0.214);
+    outline: none;
+    padding: 10px 5px;
+    border-radius: 0px;
+    font-weight: 600;
+    margin-top: 10px;
+  }
+
+  .divFeedbackForm input::placeholder {
+    color: rgba(0, 0, 139, 0.499);
+  }
+
+  .divFeedbackForm textarea {
+    width: 80%;
+    font-size: 15px;
+    color: darkblue;
+    border: none;
+    background-color: rgba(0, 0, 139, 0.214);
+    outline: none;
+    padding: 10px 5px;
+    border-radius: 5px;
+    font-weight: 600;
+    margin-top: 10px;
+  }
+
+  .divFeedbackForm textarea::placeholder {
+    color: rgba(0, 0, 139, 0.499);
+  }
+
+  .submitBtnfeedbackForm {
+    padding: 7px 15px;
+    background-color: aliceblue;
+    border: 1px solid darkblue;
+    border-radius: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    color: darkblue;
+    font-size: 17px;
+    margin-left: 10px;
+    font-weight: 600;
+    width: 30%;
+  }
+
+  .submitBtnfeedbackForm:hover {
+    background-color: darkblue;
+    color: white;
+  }
+}
+
+@media (min-width: 751px) and (max-width: 1051px) {
+  .feedbackForm {
+    box-shadow: 3px 3px 30px rgb(0, 0, 106);
+    width: 50%;
+    margin: 60px auto 0 auto;
+    padding: 40px 0;
+    border-radius: 0px;
+  }
+
+  .divFeedbackForm {
+    padding: 15px;
+    text-align: center;
+  }
+
+  .divFeedbackForm label {
+    margin-right: 10px;
+    font-size: 18px;
+    color: darkblue;
+    font-weight: 600;
+    display: block;
+    text-align: left;
+    width: 80%;
+    margin: auto;
+  }
+
+  .divFeedbackForm input {
+    width: 70%;
+    font-size: 18px;
+    color: darkblue;
+    border: none;
+    background-color: rgba(0, 0, 139, 0.214);
+    outline: none;
+    padding: 10px 5px;
+    border-radius: 0px;
+    font-weight: 600;
+    margin-top: 10px;
+  }
+
+  .divFeedbackForm input::placeholder {
+    color: rgba(0, 0, 139, 0.499);
+  }
+
+  .divFeedbackForm textarea {
+    width: 80%;
+    font-size: 18px;
+    color: darkblue;
+    border: none;
+    background-color: rgba(0, 0, 139, 0.214);
+    outline: none;
+    padding: 10px 5px;
+    border-radius: 5px;
+    font-weight: 600;
+    margin-top: 10px;
+  }
+
+  .divFeedbackForm textarea::placeholder {
+    color: rgba(0, 0, 139, 0.499);
+  }
+
+  .submitBtnfeedbackForm {
+    padding: 7px 15px;
+    background-color: aliceblue;
+    border: 1px solid darkblue;
+    border-radius: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    color: darkblue;
+    font-size: 18px;
+    margin-left: 10px;
+    font-weight: 600;
+    width: 30%;
+  }
+
+  .submitBtnfeedbackForm:hover {
+    background-color: darkblue;
+    color: white;
+  }
+}

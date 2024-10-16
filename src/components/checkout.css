@@ -1,0 +1,180 @@
+.checkOutH1 {
+  text-align: center;
+  color: darkblue;
+  text-shadow: 3px 3px 3px rgb(172, 172, 172);
+  margin-top: 10px;
+}
+
+.checkOut-list {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+}
+
+.checkOut-item {
+  border: 2px solid darkblue;
+  border-radius: 10px;
+  width: 70%;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+.checkOutName {
+  font-size: 25px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.checkoutPrice {
+  font-size: 25px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.totalPriceCheckOut {
+  font-weight: 700;
+  font-size: 25px;
+  color: darkblue;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.placeOrderBtn {
+  padding: 10px 25px;
+  background-color: aliceblue;
+  border: 2px solid darkblue;
+  border-radius: 10px;
+  color: darkblue;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.placeOrderBtn:hover {
+  background-color: darkblue;
+  color: white;
+}
+
+@media (min-width: 350px) and (max-width: 551px) {
+  .checkOutMain {
+    margin-top: 70px;
+  }
+  .checkOutH1 {
+    text-align: center;
+    color: darkblue;
+    text-shadow: 3px 3px 3px rgb(172, 172, 172);
+    font-size: 30px;
+  }
+
+  .checkOut-list {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+  }
+
+  .checkOut-item {
+    border: 2px solid darkblue;
+    border-radius: 10px;
+    width: 82%;
+    margin: 10px auto;
+    padding: 10px;
+  }
+
+  .checkOutName {
+    font-size: 20px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  .checkoutPrice {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 10px;
+  }
+
+  .totalPriceCheckOut {
+    font-weight: 700;
+    font-size: 20px;
+    color: darkblue;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .placeOrderBtn {
+    padding: 7px 15px;
+    background-color: aliceblue;
+    border: 2px solid darkblue;
+    border-radius: 10px;
+    color: darkblue;
+    font-size: 17px;
+    font-weight: 600;
+  }
+
+  .placeOrderBtn:hover {
+    background-color: darkblue;
+    color: white;
+  }
+}
+
+@media (min-width: 551px) and (max-width: 751px) {
+  .checkOutMain {
+    margin-top: 70px;
+  }
+  .checkOutH1 {
+    text-align: center;
+    color: darkblue;
+    text-shadow: 3px 3px 3px rgb(172, 172, 172);
+    font-size: 30px;
+  }
+
+  .checkOut-list {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+  }
+
+  .checkOut-item {
+    border: 2px solid darkblue;
+    border-radius: 10px;
+    width: 82%;
+    margin: 10px auto;
+    padding: 10px;
+  }
+
+  .checkOutName {
+    font-size: 20px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  .checkoutPrice {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 10px;
+  }
+
+  .totalPriceCheckOut {
+    font-weight: 700;
+    font-size: 20px;
+    color: darkblue;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .placeOrderBtn {
+    padding: 7px 15px;
+    background-color: aliceblue;
+    border: 2px solid darkblue;
+    border-radius: 10px;
+    color: darkblue;
+    font-size: 17px;
+    font-weight: 600;
+  }
+
+  .placeOrderBtn:hover {
+    background-color: darkblue;
+    color: white;
+  }
+}

@@ -1,0 +1,223 @@
+.mainHeader {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(240, 248, 255);
+  padding: 25px 0;
+  width: 100%;
+}
+
+#menu-btn {
+  display: none;
+  color: #2b2b2b;
+  font-size: 20px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.close {
+  display: none;
+}
+
+.is-sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  box-shadow: 0 10px 24px rgb(0 0 0 / 15%);
+  animation: 300ms ease-in 0s normal none 1 running fadeInDown;
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.ulHeader {
+  list-style: none;
+  margin: 0;
+}
+
+.ulHeader a {
+  cursor: pointer;
+  display: inline;
+  padding: 25px 50px;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  color: darkblue;
+}
+
+.ulHeader a:hover {
+  background-color: darkblue;
+  color: white;
+}
+
+@media (min-width: 350px) and (max-width: 551px) {
+  .ulHeader {
+    display: none;
+    padding: 0;
+  }
+
+  #menu-btn {
+    display: block;
+    font-size: xx-large;
+    text-align: end;
+  }
+
+  .ulHeader.active {
+    display: flex;
+    flex-flow: column nowrap;
+  }
+
+  .close {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 5px;
+  }
+
+  .mainHeader {
+    margin: 0;
+    text-align: center;
+    padding: 0;
+    background-color: rgb(240, 248, 255);
+    padding: 5px 0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+  }
+  .ulHeader a {
+    text-align: center;
+    cursor: pointer;
+    display: inline;
+    padding: 10px 10px;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    color: darkblue;
+  }
+  .ulHeader a:hover {
+    background-color: darkblue;
+    color: white;
+  }
+}
+
+@media (min-width: 551px) and (max-width: 751px) {
+  .ulHeader {
+    display: none;
+    padding: 0;
+  }
+
+  #menu-btn {
+    display: block;
+    font-size: xx-large;
+    text-align: end;
+  }
+
+  .ulHeader.active {
+    display: flex;
+    flex-flow: column nowrap;
+  }
+
+  .close {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 5px;
+  }
+
+  .mainHeader {
+    margin: 0;
+    text-align: center;
+    padding: 0;
+    background-color: rgb(240, 248, 255);
+    padding: 5px 0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+  }
+  .ulHeader a {
+    text-align: center;
+    cursor: pointer;
+    display: inline;
+    padding: 10px 10px;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    color: darkblue;
+  }
+  .ulHeader a:hover {
+    background-color: darkblue;
+    color: white;
+  }
+}
+
+@media (min-width: 751px) and (max-width: 1155px) {
+  .mainHeader {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(240, 248, 255);
+    padding: 25px 0;
+    width: 100%;
+  }
+
+  #menu-btn {
+    display: none;
+    color: #2b2b2b;
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+
+  .close {
+    display: none;
+  }
+
+  .is-sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    box-shadow: 0 10px 24px rgb(0 0 0 / 15%);
+    animation: 300ms ease-in 0s normal none 1 running fadeInDown;
+  }
+
+  @keyframes fadeInDown {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .ulHeader {
+    list-style: none;
+    margin: 0;
+  }
+
+  .ulHeader a {
+    cursor: pointer;
+    display: inline;
+    padding: 25px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    color: darkblue;
+  }
+
+  .ulHeader a:hover {
+    background-color: darkblue;
+    color: white;
+  }
+}

@@ -1,0 +1,258 @@
+.favH1 {
+  text-align: center;
+  color: darkblue;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  text-shadow: 3px 3px 3px rgb(172, 172, 172);
+}
+
+.fav-list {
+  display: grid;
+  width: 90%;
+  margin: auto;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.fav-item {
+  border: 2px solid darkblue;
+  padding: 15px;
+  border-radius: 25px;
+  /* height: 650px; */
+}
+
+.favImg {
+  width: 80%;
+  height: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px black;
+}
+
+.favName {
+  font-size: 25px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.favBrand {
+  color: gray;
+  padding: 0;
+  margin: 0 0 20px 0;
+  text-align: center;
+}
+
+.favDesc {
+  width: 90%;
+  text-align: justify;
+}
+
+.favPrice {
+  font-size: 25px;
+  font-weight: 700;
+  text-align: center;
+}
+
+@media (min-width: 350px) and (max-width: 551px) {
+  .favMain {
+    margin-top: 60px;
+  }
+  .favH1 {
+    text-align: center;
+    color: darkblue;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 35px;
+    text-shadow: 3px 3px 3px rgb(172, 172, 172);
+  }
+
+  .fav-list {
+    display: grid;
+    width: 80%;
+    margin: auto;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+  }
+
+  .fav-item {
+    border: 2px solid darkblue;
+    padding: 15px;
+    border-radius: 25px;
+    height: 600px;
+  }
+
+  .favImg {
+    width: 70%;
+    height: 42%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px black;
+  }
+
+  .favName {
+    font-size: 20px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    text-align: center;
+  }
+
+  .favBrand {
+    color: gray;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .favDesc {
+    width: 100%;
+    text-align: justify;
+    font-size: 15px;
+  }
+
+  .favPrice {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+  }
+}
+
+@media (min-width: 551px) and (max-width: 751px) {
+  .favMain {
+    margin-top: 60px;
+  }
+  .favH1 {
+    text-align: center;
+    color: darkblue;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 35px;
+    text-shadow: 3px 3px 3px rgb(172, 172, 172);
+  }
+
+  .fav-list {
+    display: grid;
+    width: 65%;
+    margin: auto;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+  }
+
+  .fav-item {
+    border: 2px solid darkblue;
+    padding: 15px;
+    border-radius: 25px;
+    height: 670px;
+  }
+
+  .favImg {
+    width: 70%;
+    height: 42%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px black;
+  }
+
+  .favName {
+    font-size: 22px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    text-align: center;
+  }
+
+  .favBrand {
+    color: gray;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .favDesc {
+    width: 90%;
+    text-align: justify;
+    font-size: 18px;
+    margin: auto;
+  }
+
+  .favPrice {
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+  }
+}
+
+@media (min-width: 751px) and (max-width: 1051px) {
+  /* .favMain {
+     margin-top: 60px; 
+  } */
+  .favH1 {
+    text-align: center;
+    color: darkblue;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 35px;
+    text-shadow: 3px 3px 3px rgb(172, 172, 172);
+  }
+
+  .fav-list {
+    display: grid;
+    width: 90%;
+    margin: auto;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .fav-item {
+    border: 2px solid darkblue;
+    padding: 15px;
+    border-radius: 25px;
+    height: 650px;
+  }
+
+  .favImg {
+    width: 65%;
+    height: 37%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px black;
+  }
+
+  .favName {
+    font-size: 22px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    text-align: center;
+  }
+
+  .favBrand {
+    color: gray;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  .favDesc {
+    width: 90%;
+    text-align: justify;
+    font-size: 19px;
+    margin: auto;
+  }
+
+  .favPrice {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+  }
+}

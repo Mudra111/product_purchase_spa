@@ -1,0 +1,313 @@
+.contactForm {
+  box-shadow: 3px 3px 30px rgb(0, 0, 106);
+  width: 48%;
+  margin: 40px auto 0 auto;
+  padding: 30px 0;
+  border-radius: 10px;
+}
+
+.divContactForm {
+  padding: 15px;
+  text-align: center;
+}
+
+.divContactForm label {
+  margin-right: 10px;
+  font-size: 18px;
+  color: darkblue;
+  font-weight: 600;
+  display: block;
+  text-align: left;
+  width: 66%;
+  margin: auto;
+}
+
+.divContactForm input {
+  width: 65%;
+  font-size: 18px;
+  color: darkblue;
+  border: none;
+  background-color: rgba(0, 0, 139, 0.214);
+  outline: none;
+  padding: 10px 5px;
+  border-radius: 5px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.divContactForm input::placeholder {
+  color: rgba(0, 0, 139, 0.499);
+}
+
+.divContactForm textarea {
+  width: 65%;
+  font-size: 18px;
+  color: darkblue;
+  border: none;
+  background-color: rgba(0, 0, 139, 0.214);
+  outline: none;
+  padding: 10px 5px;
+  border-radius: 5px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.divContactForm textarea::placeholder {
+  color: rgba(0, 0, 139, 0.499);
+}
+
+.submitBtnContactForm {
+  padding: 10px 20px;
+  background-color: aliceblue;
+  border: 1px solid darkblue;
+  border-radius: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+  color: darkblue;
+  font-size: 17px;
+  margin-left: 10px;
+  font-weight: 600;
+  width: 30%;
+}
+
+.submitBtnContactForm:hover {
+  background-color: darkblue;
+  color: white;
+}
+
+@media (min-width: 350px) and (max-width: 551px) {
+  .contactForm {
+    box-shadow: 3px 3px 30px rgb(0, 0, 106);
+    width: 97%;
+    margin: 90px auto 0 auto;
+    padding: 20px 0;
+    border-radius: 0px;
+  }
+
+  .divContactForm {
+    padding: 15px;
+    text-align: center;
+  }
+
+  .divContactForm label {
+    margin-right: 10px;
+    font-size: 15px;
+    color: darkblue;
+    font-weight: 600;
+    display: block;
+    text-align: left;
+    width: 84%;
+    margin: auto;
+  }
+
+  .divContactForm input {
+    width: 83%;
+    font-size: 15px;
+    color: darkblue;
+    border: none;
+    background-color: rgba(0, 0, 139, 0.214);
+    outline: none;
+    padding: 10px 5px;
+    border-radius: 5px;
+    font-weight: 600;
+    margin-top: 10px;
+  }
+
+  .divContactForm input::placeholder {
+    color: rgba(0, 0, 139, 0.499);
+  }
+
+  .divContactForm textarea {
+    width: 83%;
+    font-size: 15px;
+    color: darkblue;
+    border: none;
+    background-color: rgba(0, 0, 139, 0.214);
+    outline: none;
+    padding: 10px 5px;
+    border-radius: 5px;
+    font-weight: 600;
+    margin-top: 10px;
+  }
+
+  .divContactForm textarea::placeholder {
+    color: rgba(0, 0, 139, 0.499);
+  }
+
+  .submitBtnContactForm {
+    padding: 7px 15px;
+    background-color: aliceblue;
+    border: 1px solid darkblue;
+    border-radius: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    color: darkblue;
+    font-size: 15px;
+    margin-left: 10px;
+    font-weight: 600;
+    width: 30%;
+  }
+
+  .submitBtnContactForm:hover {
+    background-color: darkblue;
+    color: white;
+  }
+}
+
+@media (min-width: 551px) and (max-width: 751px) {
+  .contactForm {
+    box-shadow: 3px 3px 30px rgb(0, 0, 106);
+    width: 78%;
+    margin: 90px auto 0 auto;
+    padding: 20px 0;
+    border-radius: 10px;
+  }
+
+  .divContactForm {
+    padding: 15px;
+    text-align: center;
+  }
+
+  .divContactForm label {
+    margin-right: 10px;
+    font-size: 17px;
+    color: darkblue;
+    font-weight: 600;
+    display: block;
+    text-align: left;
+    width: 80%;
+    margin: auto;
+  }
+
+  .divContactForm input {
+    width: 79%;
+    font-size: 17px;
+    color: darkblue;
+    border: none;
+    background-color: rgba(0, 0, 139, 0.214);
+    outline: none;
+    padding: 10px 5px;
+    border-radius: 5px;
+    font-weight: 600;
+    margin-top: 10px;
+  }
+
+  .divContactForm input::placeholder {
+    color: rgba(0, 0, 139, 0.499);
+  }
+
+  .divContactForm textarea {
+    width: 79%;
+    font-size: 17px;
+    color: darkblue;
+    border: none;
+    background-color: rgba(0, 0, 139, 0.214);
+    outline: none;
+    padding: 10px 5px;
+    border-radius: 5px;
+    font-weight: 600;
+    margin-top: 10px;
+  }
+
+  .divContactForm textarea::placeholder {
+    color: rgba(0, 0, 139, 0.499);
+  }
+
+  .submitBtnContactForm {
+    padding: 7px 15px;
+    background-color: aliceblue;
+    border: 1px solid darkblue;
+    border-radius: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    color: darkblue;
+    font-size: 17px;
+    margin-left: 10px;
+    font-weight: 600;
+    width: 30%;
+  }
+
+  .submitBtnContactForm:hover {
+    background-color: darkblue;
+    color: white;
+  }
+}
+
+@media (min-width: 751px) and (max-width: 1051px) {
+  .contactForm {
+    box-shadow: 3px 3px 30px rgb(0, 0, 106);
+    width: 65%;
+    margin: 30px auto 0 auto;
+    padding: 20px 0;
+    border-radius: 10px;
+  }
+
+  .divContactForm {
+    padding: 15px;
+    text-align: center;
+  }
+
+  .divContactForm label {
+    margin-right: 10px;
+    font-size: 17px;
+    color: darkblue;
+    font-weight: 600;
+    display: block;
+    text-align: left;
+    width: 70%;
+    margin: auto;
+  }
+
+  .divContactForm input {
+    width: 69%;
+    font-size: 17px;
+    color: darkblue;
+    border: none;
+    background-color: rgba(0, 0, 139, 0.214);
+    outline: none;
+    padding: 10px 5px;
+    border-radius: 5px;
+    font-weight: 600;
+    margin-top: 10px;
+  }
+
+  .divContactForm input::placeholder {
+    color: rgba(0, 0, 139, 0.499);
+  }
+
+  .divContactForm textarea {
+    width: 69%;
+    font-size: 17px;
+    color: darkblue;
+    border: none;
+    background-color: rgba(0, 0, 139, 0.214);
+    outline: none;
+    padding: 10px 5px;
+    border-radius: 5px;
+    font-weight: 600;
+    margin-top: 10px;
+  }
+
+  .divContactForm textarea::placeholder {
+    color: rgba(0, 0, 139, 0.499);
+  }
+
+  .submitBtnContactForm {
+    padding: 7px 15px;
+    background-color: aliceblue;
+    border: 1px solid darkblue;
+    border-radius: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    color: darkblue;
+    font-size: 17px;
+    margin-left: 10px;
+    font-weight: 600;
+    width: 30%;
+  }
+
+  .submitBtnContactForm:hover {
+    background-color: darkblue;
+    color: white;
+  }
+}
